@@ -2,12 +2,12 @@ from flask import Flask
 
 app = Flask(__name__)
 
-@app.get("/")
+@app.get("/aboutme")
 def get_home():
     me = {
         "first_name": "Lizbeth",
         "last_name": "Ramirez",
-        "hobbies": "Coffee shops",
+        "hobby": "Visit Coffee shops",
         "is_online": True
     }
 
